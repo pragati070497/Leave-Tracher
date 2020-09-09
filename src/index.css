@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* table, th, td {
+  
+  border-collapse: collapse;
+  border: 1px solid black;
+  } */
+
+.backgnd{
+  background-image: url('./1project.jpg');
+height: 100vw;
+ background-size: cover;
+}
+.page{
+
+}
+
+#deco{
+  border-radius: 10px; 
+  font-style: italic;
+  font-variant: small-caps;
+font-size: 17px;
+}
+#text{
+ font-family: "sofia";
+ font-variant: small-caps;
+  font-style: italic;
+  text-shadow: 3px 3px 5px black;
+}
+
+#leavetext{
+  font-family: "sofia";
+  font-variant: small-caps;
+  text-shadow: 2px 2px 5px gray ;
+}
+
+#style{
+  font-style: italic ;
+}
+/* 
+table, td, th {
+  border: 1px solid black;
+} */
+
+tr:hover {
+  background-color:lightyellow;
+}
